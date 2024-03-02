@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <style>
+            table,td,th {
+                border: 5px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Table creation</h1>
+        <table>  
+        <tr>
+            <th colspan="3">Student</th>
+        </tr>
+
+            <tr>
+                <th rowspan="6">Cse Students</th>
+                <th>Name</th>
+                <th>Regd.No</th>
+            </tr>
+                <tr>
+                    <td>Soma Sekhar</td>
+                    <td>221Fa04085</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Another student</th>
+                </tr>
+                <tr>
+                    <td align ="centre" width="50",height="50">
+                        <b>Raj Gopal</b>
+                    <td>221FA04141</td>
+                </tr>
+                <tr>
+                    <td>Manoj</td>
+                    <td>221FA04087</td>
+                </tr>
+                <tr>
+                <td>Ashok</td>
+                <td>221FA04114</td>
+            </tr>
+        </table>
+    </body>
+</html>
